@@ -8,7 +8,7 @@ Fletcher is a full-stack TALL framework built on Laravel/Livewire for rapid appl
 ## Installation
 
 ```bash
-composer require fletcher/fletcher:0.1.0-alpha
+composer require fletcher/fletcher:dev-main
 ```
 
 ## Features
