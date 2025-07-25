@@ -1,0 +1,40 @@
+{
+    "name": "fletcher/fletcher",
+    "version": "0.1.0-alpha",
+    "description": "Fletcher - Full-stack TALL framework built on Laravel/Livewire for rapid application development",
+    "type": "library",
+    "keywords": ["fletcher", "tall-stack", "framework", "livewire", "laravel", "full-stack", "alpha", "experimental"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Akihiko Takai"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.0",
+        "livewire/livewire": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fletcher\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fletcher\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fletcher\\FletcherServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false
+}
